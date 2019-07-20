@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="windows-1252" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+<record>
+  <date>2019-07-20T03:10:44</date>
+  <millis>1563610244750</millis>
+  <sequence>0</sequence>
+  <logger>MyBellatrixLog</logger>
+  <level>SEVERE</level>
+  <class>com.bellatrix.prueba.refactor.JobLoggerRefactorizedService</class>
+  <method>lambda$0</method>
+  <thread>1</thread>
+  <message>MENSAJE DE PRUEBA</message>
+</record>
+<record>
+  <date>2019-07-20T03:10:44</date>
+  <millis>1563610244751</millis>
+  <sequence>1</sequence>
+  <logger>MyBellatrixLog</logger>
+  <level>WARNING</level>
+  <class>com.bellatrix.prueba.refactor.JobLoggerRefactorizedService</class>
+  <method>lambda$0</method>
+  <thread>1</thread>
+  <message>MENSAJE DE PRUEBA</message>
+</record>
+<record>
+  <date>2019-07-20T03:10:44</date>
+  <millis>1563610244752</millis>
+  <sequence>2</sequence>
+  <logger>MyBellatrixLog</logger>
+  <level>INFO</level>
+  <class>com.bellatrix.prueba.refactor.JobLoggerRefactorizedService</class>
+  <method>lambda$0</method>
+  <thread>1</thread>
+  <message>MENSAJE DE PRUEBA</message>
+</record>
+<record>
+  <date>2019-07-20T03:10:44</date>
+  <millis>1563610244752</millis>
+  <sequence>3</sequence>
+  <logger>MyBellatrixLog</logger>
+  <level>SEVERE</level>
+  <class>com.bellatrix.prueba.refactor.JobLoggerRefactorizedService</class>
+  <method>lambda$1</method>
+  <thread>1</thread>
+  <message>MENSAJE DE PRUEBA</message>
+</record>
+<record>
+  <date>2019-07-20T03:10:44</date>
+  <millis>1563610244754</millis>
+  <sequence>4</sequence>
+  <logger>MyBellatrixLog</logger>
+  <level>WARNING</level>
+  <class>com.bellatrix.prueba.refactor.JobLoggerRefactorizedService</class>
+  <method>lambda$1</method>
+  <thread>1</thread>
+  <message>MENSAJE DE PRUEBA</message>
+</record>
+<record>
+  <date>2019-07-20T03:10:44</date>
+  <millis>1563610244755</millis>
+  <sequence>5</sequence>
+  <logger>MyBellatrixLog</logger>
+  <level>INFO</level>
+  <class>com.bellatrix.prueba.refactor.JobLoggerRefactorizedService</class>
+  <method>lambda$1</method>
+  <thread>1</thread>
+  <message>MENSAJE DE PRUEBA</message>
+</record>
+</log>

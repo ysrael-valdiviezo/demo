@@ -12,8 +12,8 @@ import org.springframework.transaction.annotation.Transactional;
 
 import com.bellatrix.prueba.bean.LogMessageBean;
 import com.bellatrix.prueba.entity.LogValue;
-import com.bellatrix.prueba.refactor.JobLoggerRefactorizedService;
-import com.bellatrix.prueba.service.LogValuesService;
+import com.bellatrix.prueba.service.common.LogValuesService;
+import com.bellatrix.prueba.service.refactor.JobLoggerRefactorizedService;
 
 //import lombok.extern.slf4j.Slf4j;
 
