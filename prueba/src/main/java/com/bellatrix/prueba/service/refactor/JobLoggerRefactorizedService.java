@@ -55,7 +55,7 @@ public class JobLoggerRefactorizedService {
 		boolean warning = logMessageBean.isWarning(); 
 		boolean error = logMessageBean.isError();
 		
-		this.validateValues(logMessageBean, message, warning, error);
+		this.validateParams(logMessageBean, message, warning, error);
 		
 		File logFile = ResourceUtils.getFile(logFileFolder+"/logFile.txt");
 		if (!logFile.exists()) {
@@ -99,7 +99,7 @@ public class JobLoggerRefactorizedService {
 		}
 	}
 
-	private void validateValues(LogMessageBean logMessageBean, boolean message, boolean warning, boolean error)
+	private void validateParams(LogMessageBean logMessageBean, boolean message, boolean warning, boolean error)
 			throws Exception {
 		if (logMessageBean.getMessageText() == null || logMessageBean.getMessageText().trim().isEmpty()) {
 			throw new Exception("Invalid message");
