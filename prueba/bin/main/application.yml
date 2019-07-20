@@ -1,0 +1,16 @@
+
+spring:
+  h2:
+    console:
+      enabled: true
+
+#parametros 
+params:
+  logToFile: true
+  logToConsole: true
+  logMessage: true
+  logWarning: true
+  logError: true
+  logToDatabase: true
+  
+  logFileFolder: src/main/resources/files
