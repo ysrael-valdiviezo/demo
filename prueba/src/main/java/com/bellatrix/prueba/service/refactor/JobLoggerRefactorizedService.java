@@ -1,4 +1,4 @@
-package com.bellatrix.prueba.refactor;
+package com.bellatrix.prueba.service.refactor;
 
 import java.io.File;
 import java.util.ArrayList;
@@ -17,7 +17,7 @@ import org.springframework.util.ResourceUtils;
 import com.bellatrix.prueba.bean.LogMessageBean;
 import com.bellatrix.prueba.bean.LogValueBean;
 import com.bellatrix.prueba.entity.LogValue;
-import com.bellatrix.prueba.service.LogValuesService;
+import com.bellatrix.prueba.service.common.LogValuesService;
 import com.bellatrix.prueba.util.BellatrixUtil;
 import com.bellatrix.prueba.util.LogTypeEnum;
 

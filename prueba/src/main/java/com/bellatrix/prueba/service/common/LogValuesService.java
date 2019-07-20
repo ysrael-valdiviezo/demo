@@ -1,4 +1,4 @@
-package com.bellatrix.prueba.service;
+package com.bellatrix.prueba.service.common;
 
 import java.util.List;
 

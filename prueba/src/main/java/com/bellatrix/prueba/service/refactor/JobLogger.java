@@ -1,4 +1,4 @@
-package com.bellatrix.prueba.refactor;
+package com.bellatrix.prueba.service.refactor;
 
 import java.io.File;
 import java.sql.Connection;
